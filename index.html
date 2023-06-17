@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guess</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <center>
+        <div class="block">
+            <h1 style="font-size: 50px;">Number guess application</h1>
+            <h2 style="font-size: 30px;">Rule : </h2>
+            <b style="font-size: 20px;">Select a number between 1 to 100 and Guess it !!! </b><br><br>
+            <b style="font-size: 20px;">Guess a number : </b><input type="number" placeholder="Number" id="num" ><br>
+            <h3></h3>
+            <div id="statement" style="font-size: 30px;"></div><br><br><br>
+            <input type="submit" value="Check" id="check" onclick="check()">
+            <input type="submit" value="Reset" id="reset" onclick="window.location.reload()">   
+        </div>
+    </center>
+    <script src="design.js"></script>
+</body>
+</html>
